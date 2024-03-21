@@ -1,3 +1,4 @@
+import Hookform from "./components/Hookform";
 import Refform from "./components/simple form/Refform";
 import Simpleform from "./components/simple form/Simpleform";
 import StatefulForm from "./components/simple form/StatefulForm";
@@ -8,7 +9,8 @@ const App = () => {
     <div>
        {/* <Simpleform></Simpleform> */}
        {/* <StatefulForm></StatefulForm> */}
-       <Refform></Refform>
+       {/* <Refform></Refform> */}
+       <Hookform></Hookform>
     </div>
   );
 };
