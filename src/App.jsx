@@ -1,13 +1,12 @@
+import Simpleform from "./components/simple form/Simpleform";
 
-function App() {
-  
 
+const App = () => {
   return (
-    <>
-    
-      
-    </>
-  )
-}
+    <div>
+       <Simpleform></Simpleform>
+    </div>
+  );
+};
 
-export default App
+export default App;
