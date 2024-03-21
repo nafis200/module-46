@@ -1,4 +1,5 @@
 import Hookform from "./components/Hookform";
+import Grandpa from "./components/simple form/Grandpa";
 import Refform from "./components/simple form/Refform";
 import Reusableform from "./components/simple form/Reusableform";
 import Simpleform from "./components/simple form/Simpleform";
@@ -15,12 +16,16 @@ const App = () => {
        {/* <StatefulForm></StatefulForm> */}
        {/* <Refform></Refform> */}
        {/* <Hookform></Hookform> */}
-       <Reusableform formtitle={'sign in'} submtbutton='update' handleSUbmit={handleSUbmit}>
-          <div>
-            <h2>sign up</h2>
-            <p>please sign up right now</p>
-          </div>
-       </Reusableform>
+       
+        {/* <Reusableform formtitle={'sign in'} submtbutton='update' handleSUbmit={handleSUbmit}>
+            <div>
+              <h2>sign up</h2>
+              <p>please sign up right now</p>
+            </div>
+        </Reusableform> */}
+
+        <Grandpa></Grandpa>
+
     </div>
   );
 };
